@@ -22,3 +22,7 @@ static-html
 alexwine:bootstrap-4
 react-meteor-data
 fortawesome:fontawesome
+accounts-ui
+accounts-password
+accounts-google
+accounts-facebook
