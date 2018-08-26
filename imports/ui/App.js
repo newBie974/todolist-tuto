@@ -65,13 +65,14 @@ class App extends Component {
       
       <div className="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          
           <AccountsUIWrapper />
         </nav>
         <header>
            <h1>Todo List ({this.props.incompleteCount})</h1>
         </header>
  
-        <ul class="list-group">
+        <ul class="list-group list-group-flush">
           {this.renderTasks()}
         </ul>
         <br/><br/>
